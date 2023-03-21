@@ -44,7 +44,7 @@ revse_string()
 
 #------------------------------------------------------------#
 Question-2:
-Program to reverse order of words.
+Program to reverse order of words in given string.
 
 input:
 s1="Python is programming lang"
@@ -149,10 +149,11 @@ Question-6:
 Write a program to print characters at odd position and even position for the given String.
 
 input:
-
+s1="PYTHON IS WEB DEVELOPEMENT PROGRAMMING LANGUAGE"
 
 output:
-
+Even possition val:  PTO SWBDVLPMN RGAMN AGAE
+Odd possition val:  YHNI E EEOEETPORMIGLNUG
 
 Solution:
 s1="PYTHON IS WEB DEVELOPEMENT PROGRAMMING LANGUAGE"
@@ -184,7 +185,15 @@ output:
 res='rtaevjia'
 
 Solution:
+s1="ravi" 
+s2="teja"
+def two_string_merze(s1,s2):
+    tem=""
+    for i in range(len(s1)):
+        tem=tem+s1[i]+s2[i]
+    print(tem)
 
+two_string_merze(s1,s2)
 
 #------------------------------------------------------------#
 
@@ -248,7 +257,7 @@ disp_following_formate(s1)
 
 #------------------------------------------------------------#
 Question-10:
-Write a program to perform the following activity.
+Write a program to perform the following.
 
 input:
 s1="a4k3b2"
@@ -384,7 +393,6 @@ Solution:
 
 s1='earth'
 s2='heartt'
-
 def Annagram(s1,s2):
     if len(s1)==len(s2):
         if(sorted(s1)==(sorted(s2))):
@@ -466,7 +474,7 @@ first_litter_upper_case(s1)
 
 #------------------------------------------------------------#
 Question-17:
-sentence first letter upper case.
+String first letter upper case.
 
 input:
 s1="sentence first letter upper case"
@@ -689,7 +697,7 @@ Solution:
 
 
 #------------------------------------------------------------#
-Question-:
+Question-27:
 
 
 input:
@@ -705,7 +713,7 @@ Solution:
 
 
 #------------------------------------------------------------#
-Question-:
+Question-28:
 
 
 input:
