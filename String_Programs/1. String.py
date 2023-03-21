@@ -69,10 +69,10 @@ Question-3:
 Program to reverse internal content of each word.
 
 input:
-
+s1="Python is programming lang"
 
 output:
-
+res=nohtyP si gnimmargorp gnal 
 
 Solution:
 s1="Python is programming lang"
