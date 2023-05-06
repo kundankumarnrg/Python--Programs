@@ -1,12 +1,12 @@
 # Python Practice Programs
 1. Basic programs
-  >>Data Types 
-  >>Variables
-  >>Typecasting 
-  >>Input and Output in Python
-  >>Operator
-  >>Loops  
-  >>User Define function
+  >>Data Types,  
+  >>Variables, 
+  >>Typecasting,  
+  >>Input and Output in Python, 
+  >>Operator, 
+  >>Loops,   
+  >>User Define function, 
   
 2.String Programs
   >>capitalize()
